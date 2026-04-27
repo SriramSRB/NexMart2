@@ -69,7 +69,7 @@ resource "aws_security_group" "nexmart2_sg" {
 
 resource "aws_key_pair" "nexmart2_key" {
     key_name   = "nexmart2-key"
-    public_key = file("F:/File/Devops/NexMart2/nexmar2-key.pub")
+    public_key = file("F:/File/Devops/NexMart2/nexmart2-key.pub")
 }
 
 resource "aws_instance" "nexmart2_server" {
